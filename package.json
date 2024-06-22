@@ -1,0 +1,28 @@
+{
+  "name": "micro-videos-admin",
+  "description": "Backend to Manage videos, categories and genres. It will query in MySql the catalog and upload the raw videos to bucket. ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testTimeout=10000 --detectOpenHandles --forceExit --verbose --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.6.1",
+    "@swc/jest": "^0.2.36",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.5",
+    "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "uuid": "^10.0.0"
+  },
+  "dependencies": {
+    "class-validator": "^0.14.1"
+  }
+}
